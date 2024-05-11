@@ -2,5 +2,6 @@ environ
 begin
 now 
     assume a: for x,y being set holds x=y;
-    for x,y being set holds x=y by a;
+    assume b: for x,y being set holds x=y;
+    for x,y being set holds x=y by a,b;
 end; 
