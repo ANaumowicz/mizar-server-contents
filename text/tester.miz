@@ -1,0 +1,7 @@
+environ
+begin
+now 
+    assume a: for x,y being set holds x=y;
+    assume b: for x,y being set holds x=y;
+    for x,y being set holds x=y by b;
+end; 
