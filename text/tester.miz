@@ -1,3 +1,7 @@
 environ
 begin
-for x being set holds x=y;
+a:
+now 
+    thus for x,y being set holds x=y;
+end; 
+for x,y being set holds x=y;
